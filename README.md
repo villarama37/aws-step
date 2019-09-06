@@ -98,7 +98,7 @@ class CustomError extends Error {
 }
 
 exports.handler = event => {
-  return new CustomError("Yo this is an Error");
+  throw new CustomError("Yo this is an Error");
 };
 ```
 
@@ -131,4 +131,6 @@ exports.handler = event => {
 - Do automate your state machine JSON builds
 
 ## Example
+
+See simple example in the '/example' folder
  
