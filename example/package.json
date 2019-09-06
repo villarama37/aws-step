@@ -1,0 +1,11 @@
+{
+  "name": "after-run-conductor",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-offline": "^5.10.1",
+    "serverless-pseudo-parameters": "^2.4.0",
+    "serverless-step-functions": "^2.6.0"
+  }
+}
